@@ -1,0 +1,165 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% block pagecontent %}
+    <title> dashboard| your dashboard</title>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="logout">
+            {% include 'Logout.html' %}
+        </div>
+        <div class="dash-body">
+            <p class="dash-bal">
+                Balance:    
+                {% for balance in balance %}
+                <div value="{{balance}}">
+                    {{balance}}
+                </div>
+                {% endfor %}
+            </p>
+            <a class="dash-with" href="{% url 'dashboard/withdraw' %}">
+                withdraw
+            </a> <br /> <br />
+            <div>
+                <div>
+                    <span id="trad-ops">
+                        Trading Options
+                    </span>
+                </div> <br />
+            
+            
+                <div>
+                    <div class="trad-lev">
+                        First Level Trader(Silver, $50 - $10,000)
+                    </div>
+                    <ul>
+                        <li>
+                            <div>
+                                <a class="fund-link" href="{% url 'dashboard/fund' %}">Fund Account</a>
+                            </div> 
+                        </li> <br />
+                        <li>
+                            <a class="trad-link" href="{% url 'dashboard/trading' %}">Start Trading</a>
+                        </li> <br />
+                        <li>
+                            <div class="trad-pro">
+                                Profit:
+                                {% for profit1 in profit1 %}
+                                <div value="{{profit1}}">
+                                    {{profit1}}
+                                </div>
+                                {% endfor %}
+                            </div> <br />
+                        </li>
+                    </div>
+                    
+            
+            
+                    <div class="trad-lev">
+                        Second Level Trader(Gold, $10,000 - $50,000)
+                    </div>
+                    <ul>
+                        <li>
+                            <div>
+                                <a class="fund-link" href="{% url 'dashboard/fund' %}">Fund Account</a>
+                            </div> 
+                        </li> <br />
+                        <li>
+                            <a class="trad-link" href="{% url 'dashboard/trading' %}">Start Trading</a>
+                        </li> <br />
+                        <li>
+                            <div class="trad-pro">
+                                Profit: 
+                                {% for profit2 in profit2 %}
+                                <div value="{{profit2}}">
+                                    {{profit2}}
+                                </div>
+                                {% endfor %}
+                            </div> <br />
+                        </li>
+                    </ul>
+        
+                    <div class="trad-lev">
+                        Third Level Trader(Diamond, $50,000 - $250,000)
+                    </div>
+                    <ul>
+                        <li>
+                            <div>
+                                <a class="fund-link" href="{% url 'dashboard/fund' %}">Fund Account</a>
+                            </div> 
+                        </li> <br />
+                        <li>
+                            <a class="trad-link" href="{% url 'dashboard/trading' %}">Start Trading</a>
+                        </li> <br />
+                        <li>
+                            <div class="trad-pro">
+                                Profit: 
+                                {% for profit3 in profit3 %}
+                                <div value="{{profit3}}">
+                                    {{profit3}}
+                                </div>
+                                {% endfor %}
+                            </div> <br />
+                        </li>
+                    </ul>
+        
+                    <div class="trad-lev">
+                        Fourth Level Trader(Platinum, $250,000 - $1,000,000)
+                    </div>
+                    <ul>
+                        <li>
+                            <div>
+                                <a class="fund-link" href="{% url 'dashboard/fund' %}">Fund Account</a>
+                            </div> 
+                        </li> <br />
+                        <li>
+                            <a class="trad-link" href="{% url 'dashboard/trading' %}">Start Trading</a>
+                        </li> <br />
+                        <li>
+                            <div class="trad-pro">
+                                Profit: 
+                                {% for profit4 in profit4 %}
+                                <div value="{{profit4}}">
+                                    {{profit4}}
+                                </div>
+                                {% endfor %}
+                            </div> <br />
+                        </li>
+                    </ul>
+            
+        
+                    <div class="trad-lev">
+                        Fifth Level Trader(Premium Member, unlimited)
+                    </div>
+                    <ul>
+                        <li>
+                            <div>
+                                <a class="fund-link" href="{% url 'dashboard/fund' %}">Fund Account</a>
+                            </div> 
+                        </li> <br />
+                        <li>
+                            <a class="trad-link" href="{% url 'dashboard/trading' %}">Start Trading</a>
+                        </li> <br />
+                        <li>
+                            <div class="trad-pro">
+                                Profit: 
+                                {% for profit5 in profit5 %}
+                                <div value="{{profit5}}">
+                                    {{profit5}}
+                                </div>
+                                {% endfor %}
+                            </div> <br />
+                        </li>
+                    </ul>
+<hr />
+                </div>
+            </div>
+        <div>
+    </div>     
+</body>
+</html>
+{% endblock %}

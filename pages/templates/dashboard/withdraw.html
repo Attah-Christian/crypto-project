@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block pagecontent %}
+<title> {% block title  %} Withdraw funds into your account {% endblock %} </title>
+
+
+<div id="withdash" >
+    <a href="{% url 'dashboard' %}"> <span id="lt">&lt;</span>&nbsp; Dashboard</a>
+</div> <br />
+<div id="withmain">
+    <form id="withform" action="{% url 'dashboard/withdrawal' %}" method="POST">
+        {% csrf_token %}
+        <select name="coins" id="" required="required">
+            <option value="" disabled="disabled" selected="selected"> --select coin-- </option>
+            <option value="withdrawal">Bitcoin</option>
+            <option value="ethereum">Ethereum</option>
+            <option value="erc20">Usdt ERC20</option>
+            <option value="trc20">Usdt TRC20</option>
+        </select> <br /> <br />
+        <div>
+            Wallet address:<input id="wf" type="text" required="required" name="wallet_address"> <br /> <br /> <br />
+
+        </div>
+
+        <div>
+            Amount:
+            <input id="wf" type="text" required="required" name="amount" > <br /><br /> <br /> <br /> 
+            
+        </div>
+        
+        <button type="submit">
+            Withdraw
+        </button>
+        
+        
+    </form>
+    
+    
+</div>
+
+    
+    
+{% endblock %}

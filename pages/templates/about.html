@@ -1,0 +1,35 @@
+{% extends 'base.html'%}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+{% block pagecontent %}
+    <title> About us| Koinspot </title>
+</head>
+<body>
+    <div class="about">
+        <div class="header">
+            <img src="{% static 'images/coin.jpeg' %}" alt="" class="logo">
+            Koinspot
+            {% include 'nav/navbar.html' %}
+        </div>
+        <div class="us">
+            <h1 class="about-us">
+                About Us
+                <hr />
+            </h1>
+            <div class="about-cont">
+                We are an international financial company engaged in investment activities, which are related to trading on financial markets and cryptocurrency exchanges performed by qualified professional traders.
+
+            </div> <br /> <br />  
+            <div class="about-cont">
+                Our goal is to provide our investors with a reliable source of income, while minimizing any possible risks and offering a high-quality service, allowing us to automate and simplify the relations between the investors and the trustees. We work towards increasing your profit margin by profitable investment. We look forward to you being part of our community.
+
+            </div>
+        </div>
+    </div>
+</body>
+{% endblock %}
+</html>

@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% block pagecontent %}
+    <title>Services| our services</title>
+</head>
+<body>
+    <div class="services">
+        <div class="header">
+            <img src="{% static 'images/coin.jpeg' %}" alt="" class="logo">
+            Koinspot
+            {% include 'nav/navbar.html' %}
+        </div>
+
+        <div class="serve">
+            <h1>
+                Our Services
+            </h1>
+            <p>
+                Our main service is crypto trading however, we impact cryptocurrency educations into our members
+                for effective trading and we are available 24/7 for advice and help
+            </p>
+        
+            <p>
+                Get in touch with our team member if you need help
+            </p>
+            <p>
+               Otherwise enjoy your profit. 
+            </p>
+        </div>
+    </div>
+    
+
+
+
+
+</body>
+{% endblock %}
+</html>

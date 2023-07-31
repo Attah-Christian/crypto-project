@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% block pagecontent%}
+
+<title>{% block title %} Trade and make profit with Koinspot {% endblock %} </title>
+
+<p>
+    <a class="f-dash" href="{% url 'dashboard' %}"> &lt; dashboard</a>
+</p>
+
+<div id="trad-gen">
+    <center>
+        <h3>
+            Trade your coins for maximum profit
+        </h3>
+    </center>
+    <p>
+        <a href="{% url 'home' %}"></a>
+    </p>
+
+    <nav id="tradview">
+
+        <p class="inv">
+            Longtime trading(1-6months)
+        </p> <br /> <br />
+        <div>
+            <form action="" method="post">
+                Amount: <input type="text"> &nbsp; &nbsp; &nbsp;
+                Duration: <select name="" id="">
+                    <option value="">1month</option>
+                    <option value="">2months</option>
+                    <option value="">3months</option>
+                    <option value="">4months</option>
+                    <option value="">5months</option>
+                    <option value="">6months</option>
+
+                </select>
+            </form>
+
+
+        </div> <br />
+
+       <a id="start-trad" href="{% url 'trades/longtime' %}">start trading
+
+       </a>  <br /> <br /> <br /> <br />
+
+        <p class="inv">
+            Shortime Investment(24hours-7days)
+        </p>  <br /> <br />
+
+
+        <div>
+            <form action="" method="post">
+                Amount: <input type="text"> &nbsp; &nbsp; &nbsp;
+                Duration: <select name="" id="">
+                    <option value="">12hr</option>
+                    <option value="">24hr</option>
+                    <option value="">7days</option>
+                    <option value="">14days</option>
+                    <option value="">21days</option>
+                    <option value="">30days</option>
+
+                </select>
+            </form>
+
+        </div> <br />
+        <a id="start-trad" href="{% url 'trades/shorttime' %}">start trading
+
+        </a>  <br /> <br />
+
+    </nav>
+
+</div>
+
+
+
+{% endblock %}

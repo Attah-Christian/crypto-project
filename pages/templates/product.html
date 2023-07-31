@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% block pagecontent %}
+    <title>Our Products and Services</title>
+</head>
+<body>
+    <div class="products">
+        <div class="header">
+            <img src="{% static 'images/coin.jpeg' %}" alt="" class="logo">
+            Koinspot
+            {% include 'nav/navbar.html' %}
+        </div>
+
+        <div class="general">
+            &rarr;
+            <h1 class="pro">
+                Our Products and Services
+            </h1>
+            <div class="pro-text">
+                <ol>
+                    <li>Choose Plan </li> <br />
+                    <li>Invest Amount</li> <br />
+                    <li>Cash your Profit</li>
+                </ol>
+            </div>
+            &larr;
+ 
+            <br /><br /><br />
+
+            &rarr;
+            <h3>How Koinspot Works</h3>
+            <div class="pro-text">
+                <i>Get involved in our tremendous platform and Invest. <strong>We utilize your money and give you profit in your wallet automatically.</strong></i> 
+                <ol>
+                    <li>Create Your Account</li> <br />
+                    <li>Invest In A Plan</li> <br />
+                    <li>Get Profit</li>
+                </ol>
+            </div>
+            &larr;
+            
+            <br /><br /><br />
+
+            &rarr;
+            <div>Every Investor Has A Story To Tell</div>
+            <div class="pro-text">
+
+                <div>
+                    <h3>
+                        Investing For Everyone
+                    </h3>
+                    Get amazing investing, plus the tools you need to put your money in motion. Sign up and get your $10 Signup bonus.
+
+                </div>
+            </div>
+            &larr;
+
+            <br /><br /><br />
+
+            <div> <br />
+                Join us today
+            </div> <br />
+
+            &rarr;
+            <div>payment We Accept</div> <br />
+
+            <div class="pro-text">
+                We accept all major cryptocurrencies and fiat payment methods to make your investment process easier with our platform.
+
+            </div>
+            &larr;
+
+            <br /> <br /> <br />
+
+            &rarr;
+            <h3>Frequently Asked Questions</h3>
+            <div class="pro-text">
+                We answer some of your Frequently Asked Questions regarding our platform. If you have a query that is not answered here, Please contact us. <br /> <br />
+            </div>    
+            &larr;
+          
+
+            <nav class="index-nav"> <br />
+                <div>
+                    <img src="{% static 'images/coin.jpeg' %}" alt="" class="logo">
+                    Koinspot
+                </div>
+                <button>Privacy & Policy</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button>Terms and Conditions</button>
+            </nav>
+            <footer>
+                <div>
+                    &copy; 2023 Koinspot. All rights reserved
+                </div>
+            </footer>
+        </div>
+            
+        
+    </div>
+</body>
+{% endblock %}
+</html>

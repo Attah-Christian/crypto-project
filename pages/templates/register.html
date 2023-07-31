@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block pagecontent %}
+
+{% load crispy_forms_tags %}
+
+{% load static %}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--Register-->
+
+
+<div class="register">
+    <div>
+        {% include 'messages.html' %}
+    </div>
+    
+    <div class="header">
+        <img src="{% static 'images/coin.jpeg' %}" alt="" class="logo">
+        Koinspot
+        {% include 'nav/navbar.html' %}
+    </div>
+    <div class="container py-5">
+    
+        <h1>Sign Up</h1>
+        <form action="{% url 'register'%}" method="POST">
+            {% csrf_token %}
+
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="firstname" placeholder="First Name" required>
+                </div>
+
+
+                <br />
+
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="lastname" placeholder="Last Name" required>
+                </div>
+                
+                <br />
+
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                   <input type="text" name="username" placeholder="Username" required>
+                </div>
+
+                <br />
+
+                <div>
+                    <i class="fa-solid fa-at"></i>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+
+                <br />
+
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+
+                <br />
+
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+                </div>
+
+                <br />
+
+                <div>
+                    <button class="btn" type="submit">Sign up</button>
+                </div>
+
+        </form>
+        <p class="text-center">If you have an account <a href="{% url 'login' %}">login</a> instead </p>
+    
+    </div>
+    
+</div>
+{% endblock %}

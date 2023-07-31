@@ -1,0 +1,532 @@
+/* base */
+
+@media all and (max-width: 900px) and (min-width: 320px) and (max-height: 1024) and (min-height: 360px) {
+
+   /* index */
+    .main {
+    color: white;
+    width: fit-content;
+   }
+
+    .main-content h1 {
+        width: 300px;
+    }
+
+    .header {
+        padding: 30px;
+    }
+    .main-content .mc-color {
+        width: 250px;
+    }
+
+    .table {
+        width: 300px;
+        font-size: 7px;
+    }
+
+    /*products*/
+
+    .general .pro {
+        font-size: 20px;
+    }
+
+    .general .pro-text {
+        width: 250px;
+    }
+
+    /* about*/
+
+
+    .us .about-us {
+        width: 250px;
+        padding-bottom: 1024px;
+    }
+
+    .us .about-cont {
+        width: 250px;
+    }
+
+    .serve h1 {
+        font-size: 20px;
+    }
+    .serve p {
+        width: 250px;
+    }
+
+    #withmain {
+        height: 900px;
+    }
+
+    .fund-gen {
+        height: 900px;
+    }
+    .products {
+        color: white;
+        width: 200px;
+
+    }
+
+}
+
+
+
+
+/* index */
+
+.main {
+    color: white;
+    width: 100%;
+}
+
+.semi-background {
+    padding: 30px;
+}
+
+.header img {
+    width: 15px;
+    height: 15px;
+}
+
+body {
+    background-color: white;
+    background-image: url(bitcoin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index-nav img {
+    width: 15px;
+    height: 15px;
+}
+
+.main-content {
+    width: 500px;
+}
+
+.main-content a {
+    background: rgb(131,58,180);
+    background: linear-gradient(263deg, rgba(131,58,180,1) 0%, rgba(0,0,0,0.17693014705882348) 0%, rgba(20,198,47,0.9528405112044818) 1%);
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    color: #fff;
+}
+
+center .red {
+    color: red;
+}
+center .yg {
+    color: yellowgreen;
+}
+
+table {
+    color: green;
+}
+
+/* products */
+
+.products {
+    width: 95%;
+    color: white;
+
+}
+
+.general {
+    padding: 30px;
+    width: 500px;
+}
+
+.pro-text {
+    color: #008000;
+}
+
+.pro-text:hover {
+    color: red;
+}
+
+
+
+/* nav */
+
+/* .nav-container {
+    padding-right: 50px;
+    margin-bottom:30px;
+    margin-left: 500px;
+} */
+
+.nav-container a {
+    color: white;
+    text-decoration: underline;
+    background: rgb(131,58,180);
+    background: linear-gradient(263deg, rgba(131,58,180,1) 0%, rgba(0,0,0,0.17693014705882348) 0%, rgba(20,198,47,0.9528405112044818) 1%);
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+/* about*/
+
+
+.about {
+    color: white;
+    width: 95%;
+}
+
+.us {
+    padding: 30px;
+    width: 500px;
+}
+
+.about-cont {
+    font-size: larger;
+}
+
+
+/* contact*/
+
+.contact {
+    color: #fff;
+}
+
+.team {
+    padding: 30px;
+}
+
+
+/* services */
+
+.services {
+    color: #fff;
+}
+
+.serve {
+    padding: 30px;
+    width: 500px;
+    font-size: larger;
+}
+
+/* register */
+
+.container {
+    padding: 30px;
+    color: white;
+    padding-bottom: 1024px;
+}
+.register {
+    color: #fff;
+}
+
+.btn {
+    background: rgb(131,58,180);
+    background: linear-gradient(263deg, rgba(131,58,180,1) 0%, rgba(0,0,0,0.17693014705882348) 0%, rgba(20,198,47,0.9528405112044818) 1%);
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    color: #fff;
+}
+
+.text-center a {
+    color: #008000;
+}
+
+/* login */
+
+
+/* logout */
+
+.nav-item a {
+    background-color: red;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    color: white;
+
+}
+
+.nav-item2 a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/* dashboard */
+
+.dashboard {
+    color: #fff;
+    padding: 30px;
+}
+
+.home-button a {
+    background-color: yellow;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    color: wheat;
+}
+.dash-body p {
+    font-size: larger;
+}
+
+.cash-with {
+    background-color: #008000;
+    font-size: large;
+}
+
+.cash-with a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    color: #fff;
+}
+
+#trad-ops {
+    font-size: x-large;
+}
+
+.trad-link {
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    background-color: blue;
+}
+
+.fund-link {
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    background-color: green;
+}
+
+.trad-pro {
+    font-size: x-large;
+}
+
+.trad-lev {
+    font-size: larger;
+}
+
+.trade-with {
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    background-color: blue;
+}
+
+.dash-with {
+    background: rgb(131,58,180);
+    background: linear-gradient(263deg, rgba(131,58,180,1) 0%, rgba(0,0,0,0.17693014705882348) 0%, rgba(20,198,47,0.9528405112044818) 1%);
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    color: #fff;
+}
+
+/* Withdraw */
+
+.with-d {
+    background: rgb(131,58,180);
+    background: linear-gradient(263deg, rgba(131,58,180,1) 0%, rgba(0,0,0,0.17693014705882348) 0%, rgba(20,198,47,0.9528405112044818) 1%);
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    color: #fff;
+}
+
+.with-d button {
+   color: #fff;
+}
+
+#withdrawall {
+    color: #fff;
+    margin-bottom: 1024px;
+}
+
+#withform {
+    color: white;
+}
+
+#withdash a {
+    color: #fff;
+    font: large;
+    text-decoration: none;
+}
+#withdash #lt {
+    font-size: x-large;
+}
+
+#withmain {
+    padding: 30px;
+    margin-bottom: 1024px;
+    width: 350px;
+}
+
+#wf {
+    padding: 1px;
+    width: 150px;
+    border: none;
+    background-color: bisque;
+}
+
+#formbut {
+    font-size: large;
+    background-color: bisque;
+}
+
+/* fund */
+
+.fund-gen {
+    color: #fff;
+    padding: 30px;
+    padding-bottom: 300px;
+}
+.coinimg {
+    width: 30px;
+    height: 30px;
+}
+
+.fbtc {
+    color: orange;
+    text-decoration: none;
+}
+
+.feth {
+    text-decoration: none;
+    color: white;
+}
+.ferc {
+    text-decoration: none;
+    color: green;
+}
+.ftrc {
+    text-decoration: none;
+    color: green;
+}
+
+.f-dash {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+
+.col-wh {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#bitc {
+    color: #fff;
+    padding: 30px;
+}
+
+#bord h6 {
+    border: 1px solid orange;
+    background-color: orange;
+}
+
+.cloudimg {
+    height: 10px;
+    width:20px;
+}
+
+.idk {
+    font-size: xx-small;
+}
+
+.h4w {
+    color: #fff;
+}
+
+.coin-gen {
+    padding-bottom: 100px;
+}
+
+/* trading */
+
+#tradview {
+    padding: 30px;
+}
+
+#trad-gen {
+    color: white;
+    padding-bottom: 1024px;
+}
+
+
+#start-trad {
+    background: rgb(131,58,180);
+    background: linear-gradient(263deg, rgba(131,58,180,1) 0%, rgba(0,0,0,0.17693014705882348) 0%, rgba(20,198,47,0.9528405112044818) 1%);
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+    color: #fff;
+    font-size: large;
+}
+.now {
+   color: #fff;
+   padding: 30px;
+}
+
+div .tradview .inv {
+  font-size: 30px;
+  font-family: cursive;
+  font-style: oblique;
+}
+
+.tin {
+    padding-bottom: 1024px;
+}

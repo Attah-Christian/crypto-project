@@ -1,0 +1,108 @@
+/* index */
+
+.semi-background {
+    width: 92%;
+    height: 680px auto;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.main .header{
+    color: white;
+    margin-left: 50px;
+}
+
+body {
+    background-color: white;
+    background-image: url(bitcoin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+}
+
+.nav-container {
+    padding-right: 50px;
+    margin-bottom:30px;
+    margin-left: 500px;
+}
+.nav-container a {
+    color: white;
+    text-decoration: underline;
+    background: rgb(131,58,180);
+    background: linear-gradient(263deg, rgba(131,58,180,1) 0%, rgba(0,0,0,0.17693014705882348) 0%, rgba(20,198,47,0.9528405112044818) 1%);
+    display: inline-block;
+    width: 100px;
+    border-radius: 5%;
+    text-align: center;
+    opacity: 70%;
+    padding: 5px;
+
+}
+
+div .main-content {
+    color: white;
+    padding-left: 10px;
+    width: 500px;
+    color: white
+}
+
+.main-content .mc-color {
+    font-size: x-large;
+}
+
+.main-content a {
+    display: inline-block;
+    width: 90px;
+    border-radius: 5%;
+    padding: 10px;
+    text-align: center;
+    opacity: 70%;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    background: rgb(131,58,180);
+    background: linear-gradient(263deg, rgba(131,58,180,1) 0%, rgba(0,0,0,0.17693014705882348) 0%, rgba(20,198,47,0.9528405112044818) 1%);
+}
+
+
+/* about*/
+
+
+.about {
+    color: white;
+    width: 92%;
+    font-size: large;
+    margin-left: 50px;
+}
+
+.us .about-us {
+    margin: 30px;
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+
+.about-cont {
+    margin: 30px;
+    width: 500px;
+    text-align: justify;
+}
+
+.about-nav {
+    color: white;
+    margin-left: 70px;
+    margin-bottom: 150px;
+}
+
+.about-us hr {
+    width: 500px;
+    margin-left: 0;
+}
+
+/* products */
+
+.products {
+    color: white; 
+}

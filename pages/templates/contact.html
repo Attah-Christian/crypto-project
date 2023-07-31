@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% block pagecontent %}
+    <title>Contact us| Team member</title>
+</head>
+<body>
+    <div class="contact">
+        <div class="header">
+            <img src="{% static 'images/coin.jpeg' %}" alt="" class="logo">
+            Koinspot
+            {% include 'nav/navbar.html' %}
+        </div>
+    
+        <div class="team">
+            <div>
+                <h2>Team</h2>
+            </div>
+            <div>
+                Email: maxwellchadwicks78@gmail.com
+            </div> <br />
+            <div>
+                call: 0700koinspot
+            </div>
+            <p>
+                We are active 24/7.
+            </p>
+        </div>
+    
+    </div>
+
+</body>
+{% endblock%}
+</html>

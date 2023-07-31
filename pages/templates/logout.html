@@ -1,0 +1,27 @@
+<!--Navbar-->
+<nav class="logout">
+    <div class="collapse navbar-collapse" id="navbarText">
+        {% if user.is_authenticated %}
+
+        <div class="nav-item2">
+            <a class="nav-link" href="#"> Welcome, &nbsp; {{ user.username }}</a> <br />
+        </div> <br /> <br />
+
+
+
+        <span class="home-button">
+            <a href="{% url 'home' %}">Home</a>
+        </span> &nbsp;&nbsp;&nbsp;
+        <span class="nav-item">
+            <a class="nav-link" href="{% url 'logout' %}">Logout</a>
+        </span>
+        <br /> <br />
+        
+        {% else %}
+        <!-- <div class="nav-item">
+            <a class="nav-link" href="{% url 'home' %}">Home</a>
+        </div> -->
+        {% endif %}
+
+    </div>
+</nav>

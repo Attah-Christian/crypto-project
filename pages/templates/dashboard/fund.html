@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% block pagecontent %}
+    <title>{% block title %} Fund Account| for trading {% endblock %}</title>
+</head>
+<body>
+    <div class="fund-gen">
+        <center>
+            <h2 class="col-wh">
+                Fund your account
+            </h2>
+        </center>
+        <p>
+            <a class="f-dash" href="{% url 'dashboard' %}"> &lt; dashboard</a>
+        </p>
+    
+        <div class="fund-gen">
+            <h3>
+                Funding Options
+            </h3> 
+        
+            <p>
+               <img src="{% static 'images/btc.png' %}" alt="" class="coinimg"> <a class="fbtc" href="{% url 'coins/bitcoin' %}">Bitcoin </a> <br /> <br />
+                <img src="{% static 'images/eth.png' %}" alt="" class="coinimg"> <a class="feth" href="{% url 'coins/ethereum' %}">Ethereum </a> <br /> <br />
+                <img src="{% static 'images/erc20.jpeg' %}" alt="" class="coinimg"> <a class="ferc" href="{% url 'coins/usdterc20' %}">USDT ERC20 </a> <br /> <br /> 
+                <img src="{% static 'images/trc20.jpeg' %}" alt="" class="coinimg"> <a class="ftrc" href="{% url 'coins/usdttrc20' %}">USDT TRC20</a>
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>
+{% endblock %}
+
+
+

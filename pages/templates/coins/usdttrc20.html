@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block pagecontent %}
+
+<title>
+    Fund account with usdt trc20
+</title
+
+<div class="coin-gen">
+    <center>
+        <h4 class="h4w">
+            <img src="{% static 'images/trc20.jpeg' %}" alt="" class="coinimg"> Tronx(trc20) payment system
+        </h4>
+    </center>
+    
+    <p>
+        <a class="f-dash" href="{% url 'dashboard/fund' %}"> &lt; Funding</a>
+    </p> <br />
+    
+    
+    <div id="bitc">
+        <div id="bord">
+            Pay into the wallet address below to fund your account.
+            <div class="idk">payment secured by cloudflare <img src="{% static 'images/cloudflare.png' %}" alt="" class="cloudimg"></div>
+        </div> <br /> <br />
+        <div name="usdttrc20_wallet">
+            Usdt TRC20 wallet address: <br /> <br />
+    
+            {% for usdttrc20  in usdttrc20  %}
+            <div value="{{usdttrc20 }}">
+                {{usdttrc20 }}
+            </div>
+            {% endfor %}
+        </div>
+         <div class="idk"> <br /> <br />
+            payment should be made via eth network only otherwise your funds will be lost
+         </div>
+    </div>
+</div>
+
+
+{% endblock %}
