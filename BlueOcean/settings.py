@@ -28,6 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['aqueous-dusk-52739-ae2f12d6332a.herokuapp.com', 'koinspot.com', 'www.koinspot.com']
 
+LOGIN_REDIRECT_URL = 'dashboard'
 
 # Application definition
 
