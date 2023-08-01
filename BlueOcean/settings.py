@@ -162,7 +162,7 @@ EMAIL_USE_SSL = True
 
 #whitenoise settings
 
-#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # Default primary key field type
