@@ -2,42 +2,53 @@
 {% load static %}
 {% block pagecontent %}
 
-<title>
-    Fund account with bitcoin
-</title>
-
-
-<div class="coin-gen">
-    <center>
-        <h4 class="h4w">
-            <img src="{% static 'images/btc.png' %}" alt="" class="coinimg"> Bicoin payment system
-        </h4>
-    </center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Fund account with bitcoin
+    </title>
+</head>
+<body>
+    <div class="coin-gen">
+        <center>
+            <h4 class="h4w">
+                <img src="{% static 'images/btc.png' %}" alt="" class="coinimg"> Bicoin payment system
+            </h4>
+        </center>
     
-    <p>
-        <a class="f-dash" href="{% url 'dashboard/fund' %}"> &lt; Funding</a>
-    </p> <br />
+        <p>
+            <a class="f-dash" href="{% url 'dashboard/fund' %}"> &lt; Funding</a>
+        </p> <br />
     
-    <div id="bitc">
-        <div id="bord">
-            Pay into the wallet address below to fund your account.
-            <div class="idk">payment secured by cloudflare <img src="{% static 'images/cloudflare.png' %}" alt="" class="cloudimg"></div>
-        </div> <br /> <br />
-        <div name="btc_wallet">
-            bitcoin wallet address: <br /> <br />
+        <div id="bitc">
+            <div id="bord">
+                Pay into the wallet address below to fund your account.
+                <div class="idk">payment secured by cloudflare <img src="{% static 'images/cloudflare.png' %}" alt="" class="cloudimg"></div>
+            </div> <br /> <br />
+            <div name="btc_wallet">
+                bitcoin wallet address: <br /> <br />
     
-            {% for bitcoin in bitcoin %}
-            <div value="{{bitcoin}}">
-                {{bitcoin}}
+                {% for bitcoin in bitcoin %}
+                <div value="{{bitcoin}}">
+                    {{bitcoin}}
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
-        </div>
     
-         <div class="idk"> <br /> <br />
-            payment should be made via bitcoin network only otherwise your funds will be lost
-         </div>
+             <div class="idk"> <br /> <br />
+                payment should be made via bitcoin network only otherwise your funds will be lost
+             </div>
+        </div>
     </div>
-</div>
+</body>
+</html>
+
+
+
+
 
 
 {% endblock %}

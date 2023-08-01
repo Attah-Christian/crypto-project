@@ -3,41 +3,52 @@
 
 {% block pagecontent %}
 
-<title>
-    Fund account with ethereum
-</title
-
-<div class="coin-gen">
-    <center>
-        <h4 class="h4w">
-            <img src="{% static 'images/eth.png' %}" alt="" class="coinimg"> Ethereum payment system
-        </h4>
-    </center>
-
-    <p>
-        <a class="f-dash" href="{% url 'dashboard/fund' %}"> &lt; Funding</a>
-    </p> <br />
-
-    <div id="bitc">
-        <div id="bord">
-            Pay into the wallet address below to fund your account.
-            <div class="idk">payment secured by cloudflare <img src="{% static 'images/cloudflare.png' %}" alt="" class="cloudimg"></div>
-        </div> <br /> <br />
-         <div>
-            Ethereum wallet address: <br /> <br />
-
-            {% for ethereum in ethereum %}
-            <div value="{{ethereum}}">
-                {{ethereum}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Fund account with ethereum
+    </title>
+</head>
+<body>
+    <div class="coin-gen">
+        <center>
+            <h4 class="h4w">
+                <img src="{% static 'images/eth.png' %}" alt="" class="coinimg"> Ethereum payment system
+            </h4>
+        </center>
+      
+        <p>
+            <a class="f-dash" href="{% url 'dashboard/fund' %}"> &lt; Funding</a>
+        </p> <br />
+      
+        <div id="bitc">
+            <div id="bord">
+                Pay into the wallet address below to fund your account.
+                <div class="idk">payment secured by cloudflare <img src="{% static 'images/cloudflare.png' %}" alt="" class="cloudimg"></div>
+            </div> <br /> <br />
+            <div>
+                Ethereum wallet address: <br /> <br />
+      
+                {% for ethereum in ethereum %}
+                <div value="{{ethereum}}">
+                    {{ethereum}}
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
-         </div>
-         <div class="idk"> <br /> <br />
-            payment should be made via eth network only otherwise your funds will be lost
-         </div>
+            <div class="idk"> <br /> <br />
+                payment should be made via eth network only otherwise your funds will be lost
+            </div>
+        </div>
     </div>
+      
+</body>
+</html>
 
-</div>
+
+
 
 
 

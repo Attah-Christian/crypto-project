@@ -1,0 +1,588 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$tDwGnygLfUSDkSZMMebqzU$Va5ChIM3Dttf7iK+77J31NJO1zFb92/XTtXQrbn5xIE=",
+        "last_login": "2023-08-01T06:56:54.057Z",
+        "is_superuser": true,
+        "username": "Popeye",
+        "first_name": "",
+        "last_name": "",
+        "email": "maxwellchadwicks78@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-07-31T06:12:13.339Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$VaiMx3Mq60VmXomhrhNkOm$RhkbLZVKEYcfCZHTnSk287LImUzmJAdB1sUocXigOQE=",
+        "last_login": "2023-07-31T06:16:49.609Z",
+        "is_superuser": false,
+        "username": "Chris",
+        "first_name": "Attah",
+        "last_name": "Christian ",
+        "email": "Christanattah008@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-07-31T06:16:49.437Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4rl11nft1yikdfah2us11j5ngav82n63",
+    "fields": {
+        "session_data": "e30:1qQKWA:Ug-IfoeU2mx6rcbLqS9ERRlco71g3o2NbcbV-C6OJ2o",
+        "expire_date": "2023-08-14T04:28:26.732Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6b2raisp2wtw2bh63uo2qujj1lsdtc41",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCYoUBduvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWehSn3zFSenDbSb5Tu80yzW1dpih3RR60y-uc-Xk53L-DSr1-a29HMp6RiymeY3TFUHIpKizEqAZjXTRaGyoKcLAKgD2CTlQQQCOI9wcc2zfC:1qQPd6:JbuPABazPoBOpi-12gSlUMpkGeF3nJEtlJQ2SoVjweg",
+        "expire_date": "2023-08-14T09:55:56.506Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7fj062ek36yiqj4egc3qxtqgqiaswgf3",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCYoUBduvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWehSn3zFSenDbSb5Tu80yzW1dpih3RR60y-uc-Xk53L-DSr1-a29HMp6RiymeY3TFUHIpKizEqAZjXTRaGyoKcLAKgD2CTlQQQCOI9wcc2zfC:1qQNqA:v91M776LjM0r3JwlJ5_vnZ8bxkIwEOcsIR32xpziEoM",
+        "expire_date": "2023-08-14T08:01:18.290Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "bymsndk6e1aawi078dnsn3d3d77vru6q",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCYoUBduvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWehSn3zFSenDbSb5Tu80yzW1dpih3RR60y-uc-Xk53L-DSr1-a29HMp6RiymeY3TFUHIpKizEqAZjXTRaGyoKcLAKgD2CTlQQQCOI9wcc2zfC:1qQNms:Fa9vLiLSzIFE7aEjP8CSc1iBrgQliU6-RgJaDTwg8bI",
+        "expire_date": "2023-08-14T07:57:54.738Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "cxwfjwb9kj9cj225bvwdy0tixqhkecwj",
+    "fields": {
+        "session_data": "e30:1qQKY2:_dKB00HbS2QvsO2F530U1dbA62YT2U4RTi1xR7qnRM4",
+        "expire_date": "2023-08-14T04:30:22.472Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "i568xbt5w1lkukul3o4607qw6q32fp3c",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCYoUBduvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWehSn3zFSenDbSb5Tu80yzW1dpih3RR60y-uc-Xk53L-DSr1-a29HMp6RiymeY3TFUHIpKizEqAZjXTRaGyoKcLAKgD2CTlQQQCOI9wcc2zfC:1qQiuL:GBgoOffkUyAG9SzYhC09FqeiHHqXhh8xmOsuM7qfZ6A",
+        "expire_date": "2023-08-15T06:31:01.707Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kejfp5t8qz0ven77a5cv3evgb69svd38",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCYoUBduvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWehSn3zFSenDbSb5Tu80yzW1dpih3RR60y-uc-Xk53L-DSr1-a29HMp6RiymeY3TFUHIpKizEqAZjXTRaGyoKcLAKgD2CTlQQQCOI9wcc2zfC:1qQPer:SNo8s7YGXTjph8tDbO9q-NfBsE59kthIBag6n0-UbNs",
+        "expire_date": "2023-08-14T09:57:45.725Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kgvuseblkisdmbfhmu4by68nreu62jas",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCYoUBduvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWehSn3zFSenDbSb5Tu80yzW1dpih3RR60y-uc-Xk53L-DSr1-a29HMp6RiymeY3TFUHIpKizEqAZjXTRaGyoKcLAKgD2CTlQQQCOI9wcc2zfC:1qQiv4:XJJT8S4n4BwUEo6dTkqiHLoQHoLn1N3MPAwz2NlOIxQ",
+        "expire_date": "2023-08-15T06:31:46.321Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kj93m7fhmrxfh0vux8pprv5afd13o2r3",
+    "fields": {
+        "session_data": "e30:1qQKrO:u5HOBWS6SBxaL97bnwWkCxWcwjbZIrZiJzS3IO2ermY",
+        "expire_date": "2023-08-14T04:50:22.208Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "l0qxv1y5v00l7o8qcj3722ibk4u535f3",
+    "fields": {
+        "session_data": "e30:1qQKIk:t6-aZkdCDTKmZvy4SZqaYioAbEEDxc3FQWcKpK3XZRk",
+        "expire_date": "2023-08-14T04:14:34.579Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nmccjznpichm2g4c2meexunqfp7ivm7l",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCYoUBduvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWehSn3zFSenDbSb5Tu80yzW1dpih3RR60y-uc-Xk53L-DSr1-a29HMp6RiymeY3TFUHIpKizEqAZjXTRaGyoKcLAKgD2CTlQQQCOI9wcc2zfC:1qQPbH:Z6cc7xqnl11YQJvYc6es8og7HAUCPU9Pn-WE5BG4s9w",
+        "expire_date": "2023-08-14T09:54:03.515Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "no0fb1u1zlih37gf164spcvgdrx7ukh2",
+    "fields": {
+        "session_data": "e30:1qQLap:3dqMZOqLXjS2c0CCHPpZa4a6TTx352ftZ05fGd9cYNg",
+        "expire_date": "2023-08-14T05:37:19.854Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "o1l5p924i4dskmlh2xdqewhr5rnizdtr",
+    "fields": {
+        "session_data": "e30:1qQLLi:EgPWa0M7sX5hH8jnHuhlnvSkH_opKgtp4QjDjljEMPU",
+        "expire_date": "2023-08-14T05:21:42.529Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "s6btt9hglga4swxntd5jmns21aw6q5mm",
+    "fields": {
+        "session_data": "e30:1qQLOQ:j1NJczViWfQ1wjjWwHBsx_clP9FR6EJjCQ11mK6M8so",
+        "expire_date": "2023-08-14T05:24:30.078Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "tqewf6x0mw7dqgqf8d2p28p31w0vcdhy",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCYoUBduvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWehSn3zFSenDbSb5Tu80yzW1dpih3RR60y-uc-Xk53L-DSr1-a29HMp6RiymeY3TFUHIpKizEqAZjXTRaGyoKcLAKgD2CTlQQQCOI9wcc2zfC:1qQitI:k4j8uv1xqdJUPxh1h54EV_o5xSz_ZNm3oIMlGgxYWNc",
+        "expire_date": "2023-08-15T06:29:56.231Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vwhqi7vm1yoy1bwbj7ltom7zu43p4ub9",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCYoUBduvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWehSn3zFSenDbSb5Tu80yzW1dpih3RR60y-uc-Xk53L-DSr1-a29HMp6RiymeY3TFUHIpKizEqAZjXTRaGyoKcLAKgD2CTlQQQCOI9wcc2zfC:1qQjDL:manBny-PNCC2UbVGYOEAwAuru-UyboiTfAvMXiR8ZGw",
+        "expire_date": "2023-08-15T06:50:39.947Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wxta3h6zncml8aktsq62go6q2mecj16a",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCYoUBduvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWehSn3zFSenDbSb5Tu80yzW1dpih3RR60y-uc-Xk53L-DSr1-a29HMp6RiymeY3TFUHIpKizEqAZjXTRaGyoKcLAKgD2CTlQQQCOI9wcc2zfC:1qQjJO:o3lS1U8OqaBotDb1selQLGTeEM1Zd6Jh65XarNKjyf4",
+        "expire_date": "2023-08-15T06:56:54.060Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ydfrxfh94zmsny2taw662ftduavaep5d",
+    "fields": {
+        "session_data": "e30:1qQLRR:OTAuOtLqZ-DXp9UkBHb_qSnu9JNqSomzt3POojFqpwg",
+        "expire_date": "2023-08-14T05:27:37.763Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "z1o9wcvqjg8vt7sx2cg7svivkx91udxb",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCYoUBduvcMZIBBqoYmpV0Z765NutDtf-_9lwi0rTVsnZcwZXEWehSn3zFSenDbSb5Tu80yzW1dpih3RR60y-uc-Xk53L-DSr1-a29HMp6RiymeY3TFUHIpKizEqAZjXTRaGyoKcLAKgD2CTlQQQCOI9wcc2zfC:1qQPqV:LHwK_K4tonwlJivWhqafKuit5Rl_mKNv8X0hhICe1XI",
+        "expire_date": "2023-08-14T10:09:47.648Z"
+    }
+},
+{
+    "model": "pages.enquirie",
+    "pk": 1,
+    "fields": {
+        "btc_wallet": "bc1qfun305tfwge82txxmmv8xuxs8xuz5m9ppgq854",
+        "eth_wallet": "0xeCf11DC5fD6FeD9d2dc6c6631704C34aF5e49fC7",
+        "usdterc20_wallet": "0xeCf11DC5fD6FeD9d2dc6c6631704C34aF5e49fC7",
+        "usdttrc20_wallet": "TLLDqyxrAEmniynDLtRnnZZcZFdUK1wyxt"
+    }
+},
+{
+    "model": "pages.number",
+    "pk": 1,
+    "fields": {
+        "balance": "",
+        "profit1": "",
+        "profit2": "",
+        "profit3": "",
+        "profit4": "",
+        "profit5": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.185Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "demo10",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.191Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "demo15",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.193Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "demo16",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.212Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "demo17",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.215Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "demo18",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.218Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "7",
+        "object_repr": "demo19",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.221Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "8",
+        "object_repr": "demo20",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.223Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "9",
+        "object_repr": "demo22",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.226Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "10",
+        "object_repr": "demo23",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.227Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "11",
+        "object_repr": "demo25",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.229Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "12",
+        "object_repr": "demo26",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.231Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "13",
+        "object_repr": "demo27",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.232Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "14",
+        "object_repr": "demo28",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.234Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "15",
+        "object_repr": "demo29",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.236Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "16",
+        "object_repr": "demo31",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.237Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "17",
+        "object_repr": "demo32",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.239Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "18",
+        "object_repr": "demo33",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-07-31T06:14:23.241Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "demo5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-07-31T06:19:31.175Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "pages",
+            "enquirie"
+        ],
+        "object_id": "1",
+        "object_repr": "Enquirie object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-07-31T06:20:15.603Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "pages",
+            "number"
+        ],
+        "object_id": "1",
+        "object_repr": "Number object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-07-31T06:54:22.365Z",
+        "user": [
+            "Popeye"
+        ],
+        "content_type": [
+            "pages",
+            "number"
+        ],
+        "object_id": "1",
+        "object_repr": "Number object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Balance\", \"Profit1\"]}}]"
+    }
+}
+]
