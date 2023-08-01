@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-boui4vdt4io7aewgv_$vcl-vj=rct0g#na49dddlu1ci25gnv*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['aqueous-dusk-52739-ae2f12d6332a.herokuapp.com', 'koinspot.com', 'www.koinspot.com']
+ALLOWED_HOSTS = ['.aqueous-dusk-52739-ae2f12d6332a.herokuapp.com', 'koinspot.com', 'www.koinspot.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
