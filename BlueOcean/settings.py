@@ -198,6 +198,8 @@ DEBUG_PROPAGATE_EXCEPTIONS = True
 COMPRESS_ENABLED = os.environ.get('COMPRESS_ENABLED', False)
 
 
+CSRF_TRUSTED_ORIGINS = ["https://aqueous-dusk-52739.herokuapp.com"]
+
 #whitenoise settings
 
 #STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
