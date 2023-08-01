@@ -175,5 +175,6 @@ def logout(request):
         auth.logout(request)
         messages.success(request, "You are successfully logged out.")
         return redirect('home')
-    return redirect('home')
+    return redirect(request, 'dashboard.html')
     
+
