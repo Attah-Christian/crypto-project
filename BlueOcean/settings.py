@@ -38,11 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    #'django.contrib.staticfiles',
     'pages',
     'crispy_forms',
     'crispy_bootstrap4',
     'mail',
+    'django_heroku.settings(locals())',
 ]
 
 
