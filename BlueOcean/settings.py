@@ -203,7 +203,7 @@ CSRF_TRUSTED_ORIGINS = ["https://aqueous-dusk-52739.herokuapp.com"]
 
 #whitenoise settings
 
-#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # Default primary key field type
