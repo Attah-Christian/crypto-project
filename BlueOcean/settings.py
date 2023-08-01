@@ -200,7 +200,7 @@ COMPRESS_ENABLED = os.environ.get('COMPRESS_ENABLED', False)
 
 #whitenoise settings
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # Default primary key field type
