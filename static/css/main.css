@@ -532,3 +532,7 @@ div .tradview .inv {
 .tin {
     padding-bottom: 1024px;
 }
+
+.message {
+    color: #fff;
+}
