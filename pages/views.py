@@ -176,3 +176,4 @@ def logout(request):
         messages.success(request, "You are successfully logged out.")
         return redirect('home')
     return redirect('home')
+    
