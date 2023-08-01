@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import os
 from pathlib import Path
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-boui4vdt4io7aewgv_$vcl-vj=rct0g#na49dddlu1ci25gnv*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -52,6 +53,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'BlueOcean.urls'
@@ -78,16 +80,20 @@ WSGI_APPLICATION = 'BlueOcean.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'crypto',
-        'USER': 'crypto_db',
-        'PASSWORD': 'patonly',
-        'HOST': 'localhost',
-        'PORT': '1927'
-    }
-}
+
+DATABASES = {'default': dj_database_url.config(default='postgres://crypto_db:patonly@localhost/crypto')}
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'crypto',
+#         'USER': 'crypto_db',
+#         'PASSWORD': 'patonly',
+#         'HOST': 'localhost',
+#         'PORT': '1927'
+#     }
+# }
+
 
 
 
@@ -154,6 +160,8 @@ EMAIL_USE_SSL = True
 
 
 
+#whitenoise settings
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # Default primary key field type
