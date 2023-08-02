@@ -30,6 +30,8 @@ ALLOWED_HOSTS = ['aqueous-dusk-52739-ae2f12d6332a.herokuapp.com','.vercel.app']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
+LOGIN_URL = 'login'
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -143,8 +145,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
-LOGIN_REDIRECT_URL = "dashboard"
 
 SITE_ID = 4
 
