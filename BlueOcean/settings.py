@@ -40,11 +40,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-    'pages',
+    'pages.apps.PagesConfig',
     'crispy_forms',
     'crispy_bootstrap4',
     'mail',
 ]
+
 
 
 MIDDLEWARE = [
