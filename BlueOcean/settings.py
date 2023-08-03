@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'BlueOcean.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 
-DATABASES = {'default': dj_database_url.config(default='postgres://user:pass@localhost/crypto_db')}
+DATABASES = {'default': dj_database_url.config(default='postgres://crypto_db:patonly@localhost/crypto')}
 
 # DATABASES = {
 #     'default': {
